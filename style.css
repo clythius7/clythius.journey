@@ -1,0 +1,35 @@
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+@media (max-width: 600px) {
+  .profile-img {
+    width: 100px;
+  }
+  body {
+    padding: 10px;
+  }
+}
+body {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.Eyad {
+    text-align: center;
+}
